@@ -1,0 +1,26 @@
+.body{
+    /* background-image: url('./../../imagenes/Fondo\ Fondo\ De\ Cartel\ De\ Textura\ Minimalista\ Simple\ Simple\ La\ Textura\ Gradiente\ Rosa\ Cartel\ Antecedentes\ Material\ de\ Pantalla\ Imagen\ para\ Descarga\ Gratuita\ -\ Pngtree.jpg');
+    /* height: 900px; 
+    background-repeat: no-repeat;
+    /* height: 800px; 
+    
+    background-size: cover; */
+    overflow: hidden;
+    background-image: url('./../../imagenes/Untitled.png');
+    /* opacity: 0.3; */
+    
+}
+
+.contenedor{
+    /* height: 800px; */
+    background-color: rgba(255, 255, 255, 0.522);
+    padding: 50px;
+}
+
+@media all and (max-width: 700px){
+    .contenedor{
+    
+        padding: 0px;
+    }
+
+}

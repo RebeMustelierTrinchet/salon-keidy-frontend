@@ -1,0 +1,139 @@
+/* <Button variant="outline-light" data-animation="diagonal" className={styles.Boton}>Contac Us
+                        <span className={styles.borderTop} id="border"></span>
+                        <span className={styles.borderRight} id="border"></span>
+                        <span className={styles.borderBottom} id="border"></span>
+                        <span className={styles.borderLeft} id="border"></span>
+                    </Button> */
+                    :root{
+                        --verde: #235E6C;
+                        --dorado: #FFC900!important;
+                        --title: Colonna MT; 
+                        --sub_title: serif ;
+                        --texto: Berlin Sans FB;
+                        --transition-duration: 0.5s;
+                        --transition-delay: 0;
+                    }
+                        
+                        .Boton{
+                            /* background-color: aquamarine !important; */
+                            display: flex;
+                            margin-left: auto;
+                            margin-right: auto;
+                            height: 45px;
+                            background-color: transparent !important;
+                            /* width: 125px; */
+                            color: var(--verde) !important;
+                            /* text-align: center; */
+                            border: 0px solid transparent !important;
+                            /* margin-bottom: 60px; */
+                            position: relative !important;
+                            /* border-block-end-width: 5px ; */
+                            z-index: 100;
+                        }
+                        
+                        .Boton:hover{
+                        background-color: transparent !important;
+                        color: var(--dorado) !important;
+                        z-index: 100;
+                        
+                        }
+                        
+                        /* animacion boton */
+                        .borderTop,
+                        .borderBottom {
+                        width: 100%;
+                        height: 1px;
+                        
+                        /* background-color: #FEDB97; */
+                        /* background-color: aliceblue; */
+                        transform: scaleX(0.1);
+                        /* transform: scaleY(0.1); */
+                        }
+                        
+                        .borderLeft,
+                        .borderRight {
+                        width: 1px;
+                        height: 100%;
+                        transform: scaleY(0.2);
+                        }
+                        .borderTop,
+                        .borderLeft {
+                        top: 0;
+                        /* background-color: blue !important; */
+                        }
+                        .borderBottom{
+                        bottom: 0;
+                        
+                        transform-origin: bottom right;
+                        
+                        }
+                        
+                        .borderTop {
+                        transform-origin: top left;
+                        }
+                        .borderLeft {
+                        transform-origin: bottom left;
+                        }
+                        .borderRight {
+                        left: auto;
+                        right: 0;
+                        transform-origin: top right;
+                        
+                        }
+                        
+                        
+                        .borderRight{
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        background: currentColor;
+                        
+                        transition: transform var(--transition-duration) ease-in-out;
+                        }
+                        
+                        .Boton,
+                        .borderLeft,
+                        .borderTop,
+                        .borderBottom{
+                        position: absolute;
+                        left: 0;
+                        background: currentColor;
+                        transition: transform var(--transition-duration) ease-in-out;
+                        }
+                        .Boton:hover .borderTop,
+                        .Boton:hover .borderBottom {
+                        transform: scaleX(1);
+                        }
+                        .Boton:hover .borderLeft,
+                        .Boton:hover .borderRight {
+                        transform: scaleY(1);
+                        }
+                        .Boton:hover .borderRight {
+                        transition-delay: var(--transition-delay);
+                        }
+                        .Boton:hover .borderBottom {
+                        transition-delay: calc(var(--transition-delay) * 2);
+                        }
+                        .Boton:hover .borderLeft {
+                        transition-delay: calc(var(--transition-delay) * 3);
+                        }
+                        
+                        .Boton[data-animation="diagonal"] .borderLeft {
+                        transform-origin:top left;
+                        /* background-color: aliceblue !important; */
+                        }
+                        .Boton[data-animation="diagonal"] .borderRight,
+                        .Boton[data-animation="diagonal"] .borderBottom {
+                        transform-origin: bottom right;
+                        }
+                        .Boton[data-animation="diagonal"] .Boton:hover [id=border]{
+                        transition-delay: 0s;
+                        }
+                        
+                        @media all and (max-width: 700px){
+                        
+                        }
+                        
+                     
+                        
+                       

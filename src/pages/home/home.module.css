@@ -1,0 +1,82 @@
+/* :root {
+    --verde: #235E6C;
+    --dorado: #DCD563
+} */
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: bisque; */
+    
+}
+
+.contTexto{
+    background-color: rgba(253, 250, 250, 0.664);
+    font-size: 18px;
+    color: rgba(172, 172, 172, 0.518);
+    width: 820px;
+    height: 170px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+   display: flex;
+   flex-direction: column;
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 100; */
+    border: 2px solid var(--verde);
+    justify-content: center;
+}
+
+.contBordeS,
+.contBorde{
+    width: 100%;
+    height: 170px;
+    border: 2px solid var(--dorado);
+    position: absolute;
+    /* background-color: aqua; */
+    
+}
+
+.contBorde{
+    top: -10px;
+    left: 10px;
+}
+
+.contBordeS{
+    bottom: -10px;
+    right: 10px;
+}
+
+.parrafo{
+    width: 750px;
+    margin: auto; 
+    margin-top: 20px;
+    color: var(--verde);
+}
+
+/* .schedule_button{
+    /* margin-top: 20px !important; 
+    margin-left: 45%;
+    margin-right: auto;
+    background-color:transparent;
+    border: 2px solid var(--verde);
+    
+    margin-bottom: 20px;
+    z-index: 100 !important;
+} */
+
+
+/* .schedule_button:hover {
+    background-color:var(--dorado);
+    cursor: pointer;
+} */
+
+.schedule_button_div{
+    /* z-index: 10; */
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-self: center;
+    margin-bottom: 15px !important;
+}

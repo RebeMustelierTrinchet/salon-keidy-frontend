@@ -1,0 +1,9 @@
+:root{
+    --verde: #235E6C;
+    /* --dorado: #675100 !important; */
+    --title: Colonna MT; 
+    --sub_title: serif ;
+    --texto: Berlin Sans FB;
+    --transition-duration: 0.5s;
+    --transition-delay: 0;
+}

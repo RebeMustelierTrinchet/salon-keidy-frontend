@@ -1,0 +1,118 @@
+:root {
+    --verde: #235E6C;
+    --dorado: #FEDB97;
+}
+
+
+
+
+.contenedorPrincipal{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    background-image: url('./../../imagenes/WhatsApp\ Image\ 2024-02-08\ at\ 22.41.33.copy.jpeg');
+    border-bottom: 2px solid var(--verde);
+    padding: 10px;
+    position: relative;
+    
+}
+.cont__derecho{
+    width: 70%;
+    height: 50%;
+    padding: 30px;
+    margin-top: 20%;
+    background-color: rgba(215, 255, 252, 0.444);
+
+}
+
+.title{
+    color: var(--dorado);
+    font-family: Palatino Linotype;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start !important;
+    margin-bottom: 15px;
+    text-shadow: 1px  0px 0px transparent,
+                0px  1px 0px transparent ,
+                -2px  3px 0px transparent,
+                1px -2px 0px var(--verde);
+}
+.subtitle{
+    color: var(--dorado);
+    font-family: Palatino Linotype;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    text-shadow: 1px  0px 0px transparent,
+                0px  1px 0px transparent ,
+                -2px  3px 0px transparent,
+                1px -2px 0px var(--verde);
+}
+
+.schedule_button_div{
+    width: 200px;
+    /* background-color: #FEDB97; */
+    margin-top: 40px;
+}
+.imagen1,
+.imagen2,
+.imagen3{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    position: absolute;
+    
+}
+
+@keyframes subir1 {
+    from{
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+      }
+    
+  }
+.imagen1{
+ top: 30% ;
+ animation: subir1 3s; 
+
+}
+.imagen2{
+    top: 55%;
+    left:  30%;
+    z-index: 10;
+    animation: subir1 4s; 
+   
+}
+.imagen3{
+    top: 80%;
+    z-index: 1;  
+    animation: subir1 5s;  
+   
+}
+
+.cont__izquierdo{
+    width: 20%;
+    /* background-color: aqua; */
+    margin-left: 10%;
+    position: relative;
+}
+
+.raya{
+   
+    color: var(--verde);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0%;
+    opacity: 1;
+    border-bottom: 2px solid var(--verde);
+}

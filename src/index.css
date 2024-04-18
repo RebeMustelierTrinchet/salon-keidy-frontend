@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* nav */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: white !important;
+  border: 3px solid var(--dorado);
+  /* color: rgb(150, 32, 32) !important; */
+}
+
+/* faqs */
+.accordion-button{
+  background-color: transparent !important;
+  color: var(--verde)!important;
+  opacity: 1 !important;
+  /* margin-bottom: 20px !important; */
+}
+
+.accordion-button:focus{
+  /* background-color: blue !important; */
+  /* border: 2px solid green !important; */
+  box-shadow: none !important;
+  color: var(--verde) !important;
+}
+.accordion-item {
+  color: var(--verde) !important;
+  opacity: 1 !important;
+}
+
+
+
+
+.accordion{
+  --bs-accordion-btn-active-icon: url('./imagenes/signoMenos.png') !important;
+  --bs-accordion-btn-icon: url('./imagenes/signoMas.png') !important;
+  margin-bottom: 20px !important;
+}
+

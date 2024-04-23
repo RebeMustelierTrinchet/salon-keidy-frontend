@@ -1,4 +1,4 @@
-import React from "react";
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -10,11 +10,42 @@ import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
+import React, { useState, useEffect } from "react";
 
 export default function NavBar(){
-   return(
-       <div className={styles.maincontainer}>
-            <Navbar  collapseOnSelect expand="lg"  className={styles.contenedorPrincipal}>
+
+    const [visible, setVisible] = useState(true);
+
+    
+  useEffect(() => {
+    let timeoutId;
+
+    const handleScroll = () => {
+      setVisible(true); // Mostrar la barra de navegación al hacer scroll
+
+      clearTimeout(timeoutId); // Reiniciar el temporizador
+
+      timeoutId = setTimeout(() => {
+        setVisible(false); // Ocultar la barra de navegación después de 5 segundos
+      }, 5000); // 5 segundos en milisegundos
+    };
+
+   
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeoutId);
+    };
+  }, []);
+
+  return (
+    <div className={styles.maincontainer}>
+      <Navbar
+        className={`${styles.contenedorPrincipal} ${
+          visible ? styles.visible : styles.hidden
+        }`}
+      >
                 <Container className={styles.container}>
                     <Navbar.Brand href="/" >
                             <div>
@@ -27,11 +58,7 @@ export default function NavBar(){
                         <Nav.Link className={styles.botonNav} href="/">Home<hr className={styles.raya} /></Nav.Link>
                         
                         <Nav.Link className={styles.botonNavS} href="/services" >Service<hr className={styles.raya} />
-                            <div className={styles.menu}>
-                                <Link to={"/nails_services"}><Button className={styles.Boton} variant="link" href="/nails_services">Manicure</Button></Link> 
-                                <Link to={"/hair_services"}><Button className={styles.Boton} variant="link" href="/hair_services">Styling</Button></Link> 
-                                <Link to={"/hair_services"}><Button className={styles.Boton} variant="link" href="/hair_services">Esthetic</Button></Link>
-                            </div>
+                            
                         </Nav.Link>
 
                         <Nav.Link className={styles.botonNavS} href="/bookOnline">Book Online<hr className={styles.raya} />

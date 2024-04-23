@@ -3,17 +3,31 @@
     --dorado: #DCD563;
 } */
 
+
 .contenedorPrincipal{
     
-    /* background-color: #fffdfa!important; */
-    /* background: linear-gradient(var(--verde),5%, white); */
     opacity: 1;
-    /* color: black;  */
     border-bottom: 3px solid var(--verde);
-    /* margin-bottom: 0 !important;   */
-    z-index: 1;
-    /* background-color: rgba(255, 255, 255, 0.181); */
+    z-index: 10000;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    transition: transform 0.8s ease;
+    
 }
+
+.maincontainer:hover .contenedorPrincipal{
+    transform: translateY(0)    !important;
+    cursor: pointer;
+}
+
+.visible {
+    transform: translateY(0); 
+  }
+  
+  .hidden {
+    transform: translateY(-100%);
+  }
 
 .container{
     margin-top: 5px;

@@ -16,6 +16,7 @@ const nombreLocal = "nombreLocal"
 export default function CarrouselHome() {
   return (
     <div className={styles.contenedorPrincipal}>
+      <div className={styles.background}></div>
       <div className={styles.cont__derecho}>
         <h1 className={styles.title}>
           {'Our team of specialized experts is ready to provide you with an unparalleled experience.'}

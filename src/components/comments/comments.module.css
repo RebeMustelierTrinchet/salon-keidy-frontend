@@ -4,6 +4,11 @@
     opacity: 1.5 !important;
     position: relative;
     margin-top: 20px;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    text-align: start;
     
 }
 
@@ -35,14 +40,16 @@
 }
 
 .comments__container{
-    background-color: transparent;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 30px;
     text-align: center;
-
-    width: 60%;
+    /* justify-content: flex-start; */
+    width:65%;
+    min-width: 500px;
+    height: auto;
 }
 
 .title{

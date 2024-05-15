@@ -6,9 +6,9 @@ import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 // import "../../index.css"
 
-import I1 from './../../imagenes/carruselPelo/5-15-color-naturals-2018jpg42.jpg'
-import I2 from './../../imagenes/carruselPelo/5-15-color-naturals-2018jpg42.jpg'
-import I3 from './../../imagenes/carruselPelo/5-15-color-naturals-2018jpg42.jpg'
+import I1 from './../../imagenes/272668820_346913080769737_4114481006150121237_n.jpg'
+import I2 from './../../imagenes/270926249_329090639218648_4545229565822618025_n.jpg'
+import I3 from './../../imagenes/2119443648ccad5144838610e8af0b80.jpg'
 // import I7 from './../../../imagenes/bath1/IMG_0010 - Copy.jpg'
 
 

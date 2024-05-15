@@ -18,13 +18,13 @@ export default function CarrouselHome() {
     <div className={styles.contenedorPrincipal}>
       <div className={styles.background}></div>
       <div className={styles.cont__derecho}>
-        <h1 className={styles.title}>
+        <p className={styles.title}>
           {'Our team of specialized experts is ready to provide you with an unparalleled experience.'}
-        </h1>
-        <h2 className={styles.subtitle}>
+        </p>
+        <p className={styles.subtitle}>
           Our is for you to feel comfortable and satisfied with the results, which is why we strive to provide 
           you with a welcoming environment and high-quality services.
-        </h2>
+        </p>
           <div className={styles.schedule_button_div}>
             <Button variant="outline-light" data-animation="diagonal" className={Button__styles.Boton}>{'~'} Booking Online
               <span className={Button__styles.borderTop} id="border"></span>

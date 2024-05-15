@@ -11,6 +11,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import React, { useState, useEffect } from "react";
+import logo from './../../imagenes/logo/5b1be6ef-3f0f-4529-ad77-a59222d53447-removebg-preview.png'
 
 export default function NavBar(){
 
@@ -41,15 +42,16 @@ export default function NavBar(){
 
   return (
     <div className={styles.maincontainer}>
-      <Navbar
-        className={`${styles.contenedorPrincipal} ${
-          visible ? styles.visible : styles.hidden
-        }`}
+      <Navbar collapseOnSelect expand="lg" 
+        // className={`${styles.contenedorPrincipal} 
+        // ${visible ? styles.visible : styles.hidden
+        // }`}
+        className={styles.contenedorPrincipal} 
       >
                 <Container className={styles.container}>
                     <Navbar.Brand href="/" >
-                            <div>
-                                ICON
+                            <div className={styles.conteiner__logo} >
+                                <img src={logo} alt={logo} className={styles.img_logo}  />
                             </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -57,14 +59,14 @@ export default function NavBar(){
                         <Nav className="me-auto" >
                         <Nav.Link className={styles.botonNav} href="/">Home<hr className={styles.raya} /></Nav.Link>
                         
-                        <Nav.Link className={styles.botonNavS} href="/services" >Service<hr className={styles.raya} />
+                        <Nav.Link className={styles.botonNav} href="/services" >Service<hr className={styles.raya} />
                             
                         </Nav.Link>
 
-                        <Nav.Link className={styles.botonNavS} href="/bookOnline">Book Online<hr className={styles.raya} />
-                        </Nav.Link>
+                        {/* <Nav.Link className={styles.botonNavS} href="/bookOnline">Book Online<hr className={styles.raya} /> */}
+                        {/* </Nav.Link> */}
 
-                        <Nav.Link className={styles.botonNavS} href="/faqs">F.A.Qs<hr className={styles.raya} />
+                        <Nav.Link className={styles.botonNav} href="/faqs">F.A.Qs<hr className={styles.raya} />
                         </Nav.Link>
                 
                         </Nav>
@@ -77,10 +79,6 @@ export default function NavBar(){
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            {/* <hr className={styles.raya} ></hr> */}
-            {/* <div className={styles.cont__flower}> */}
-
-            {/* </div> */}
        </div>
    );
 }

@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter, FaInstagram,FaFacebook } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import Styles from './../transiciones.module.css'
 import { Button } from 'react-bootstrap';
-// import icono from './../../imagenes/icono.png'
+import logo from './../../imagenes/logo/5b1be6ef-3f0f-4529-ad77-a59222d53447-removebg-preview.png'
 
 import { FaPhoneVolume } from "react-icons/fa6";
 
@@ -19,12 +19,10 @@ export default function Footer(){
             
             
             <div className={styles.contenedor__imagen__icono}>
-                {/* <img src={icono} className={styles.imagen__icono}/> */}
-                icono
+                <img src={logo} className={styles.imagen__icono}/>
+              
             </div>
-            <p className={styles.text}>
-                Years ago, we committed to satisfying clients with specialized services and unique styles. We adapt to their needs and preferences, aiming for their satisfaction.
-            </p>
+            
 
             <div className={styles.littleCont}>
                 <div className={styles.contBoton}>

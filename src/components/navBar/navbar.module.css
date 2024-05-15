@@ -8,13 +8,29 @@
     
     opacity: 1;
     border-bottom: 3px solid var(--verde);
-    z-index: 10000;
-    position: fixed;
+    z-index: 1000;
+    /* position: fixed; */
+    position: relative;
     background-color: white;
-    width: 100%;
+    /* width: 100%; */
     transition: transform 0.8s ease;
     
 }
+
+.conteiner__logo{
+    /* background-color: aqua; */
+    width: 120px;
+    /* height: 80px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img_logo{
+    width: 120px;
+    /* height: 80px; */
+}
+
 
 .maincontainer:hover .contenedorPrincipal{
     transform: translateY(0)    !important;
@@ -112,6 +128,9 @@
 
 
 @media all and (max-width: 700px){
+    .contenedorPrincipal{
+        position: relative;
+    }
     .contBoton{
         display: flex;
 

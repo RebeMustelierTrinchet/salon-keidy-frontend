@@ -43,7 +43,7 @@ export default function Comments() {
     <div className={styles.mainCont}>
         {/* <div className={styles.borde__superior}></div> */}
         <h1 className={styles.title}>{'What do others think '}<IoFlowerSharp className={styles.button__icon}/></h1>
-        <h2 className={styles.subtitle}>nombre local</h2>
+        <h2 className={styles.subtitle}>Caribean Salon Beauty</h2>
       <Swiper
         // effect={'coverflow'}
         // grabCursor={true}
@@ -66,7 +66,7 @@ export default function Comments() {
             <SwiperSlide className={styles.swiperSlide} key ={index}> 
                <div className={styles.comments__container}>
                       <p className={styles.text}>{item.text}</p>
-                      <h2 className={styles.author}>{item.author}</h2>
+                      <p className={styles.author}>{item.author}</p>
                 </div>  
             </SwiperSlide>
           );

@@ -1,6 +1,8 @@
 .topCont{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    /* background-color: aqua; */
 }
 
 .service__container{
@@ -9,6 +11,7 @@
     text-align: center;
     width: 220px;
     height: 220px;
+    margin-bottom: 20px;
 }
 
 .mainCont{
@@ -18,6 +21,7 @@
 .imagen__container,
 .border1,
 .border2{
+    /* width: 20%; */
     width: 200px;
     height: 200px;
     transition-duration: 0.2s;
@@ -30,6 +34,7 @@
     border: 3px solid var(--dorado);
     position: relative;
     margin-top: 15px;
+    background-color: white;
 }
 
 .border1,
@@ -71,6 +76,7 @@
     /* background-color: aqua; */
     width: 220px;
     height: 220px;
+    cursor: pointer;
 }
 
 .linea__texto{

@@ -1,0 +1,154 @@
+{
+    "header": {
+     "chooseLanguage": "Elige el idioma:"
+    },
+    "mainSection": {
+     "title": "Creación de aplicaciones React multilingües con react-i18next: Guía paso a paso"
+    },
+    
+    "navbar": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "faqs": "Preguntas frecuentes"
+    },
+    "home": {
+        "paragraph": "Sueña con un cabello perfecto y hazlo realidad en nuestro salón de belleza. Nuestros especialistas en cuidado del cabello te ofrecen los tratamientos más innovadores y efectivos. Siéntete bella y segura con un cabello sano y brillante.",
+        "contactUs": "Contáctanos"
+      },
+      "carrousel": {
+        "title": "Nuestro equipo de expertos especializados está listo para brindarte una experiencia sin igual.",
+        "subtitle": "Nuestro objetivo es que te sientas cómodo y satisfecho con los resultados, por eso nos esforzamos por ofrecerte un ambiente acogedor y servicios de alta calidad.",
+        "bookingOnline": "Haz tu cita"
+      },
+      "ourServices": {
+        "title": "¿Qué ofrecemos como servicios?",
+        "aestheticServices": "Servicios estéticos:",
+        "manicure": "Manicura",
+        "styling": "Estilismo",
+        "esthetic": "Estética",
+        "goGallery": "Visita la galería"
+      },
+
+      "comments": {
+        "title": "Lo que dice la gente",
+        "subtitle": "Salón de Belleza del Caribe",
+        "comment1": {
+          "text": "¡OMG! ¡Estoy totalmente enamorado de mi nuevo peinado! ¡El equipo de Salón de Belleza del Caribe la rompió! ¡Mil gracias!",
+          "author": "Alejandro Ramirez"
+        },
+        "comment2": {
+          "text": "¡Mis uñas nunca han lucido tan bien! ¡Un gran saludo al increíble equipo de Salón de Belleza del Caribe por darme unas uñas de infarto!",
+          "author": "Sofia Gutierrez"
+        },
+        "comment3": {
+          "text": "¡Whoa! ¡No puedo dejar de admirarme después de ese increíble tratamiento facial! ¡Salón de Belleza del Caribe, ustedes son los mejores!",
+          "author": "Juanita Lopez"
+        },
+        "comment4": {
+          "text": "¡Sintiéndome como una estrella de cine después de arreglarme el cabello aquí! ¡Un enorme agradecimiento a los súper talentosos del Salón de Belleza del Caribe!",
+          "author": "Diego Hernandez"
+        },
+        "comment5": {
+          "text": "¡Estoy en la nube nueve después de mi sesión de mimos en Salón de Belleza del Caribe! ¡Estos chicos saben cómo hacerte sentir como la realeza!",
+          "author": "Camila Rodriguez"
+        }
+      },
+
+      "services": {
+
+        "HairExtensions": "~ Extensiones de Cabello",
+        "KeratinTreatment": "~ Tratamiento de Keratina",
+        "Haircuts": "~ Cortes de Pelo",
+        "Color": "~ Color",
+        "CrochetBaraids": "~ Trenzas Crochet",
+        "AfricanBraids": "~ Trenzas Africanas",
+
+        "our_service":"Nuestros Servicios",
+        "our_services": "Nuestros Servicios",
+        "styling_name": "Estilismo:",
+        "styling_offers": [
+          "~ Extensiones de cabello",
+          "~ Tratamiento de keratina",
+          "~ Cortes de cabello",
+          "~ Coloración",
+          "~ Trenzas de crochet",
+          "~ Trenzas africanas"
+        ],
+        "styling": "Arreglar tu cabello como mujer es esencial en tu rutina de cuidado personal, no solo para lucir bien, sino también para sentirte bien contigo misma. Un buen corte de cabello o peinado puede levantar tu ánimo, aumentar tu confianza y resaltar tu individualidad. Entendemos la importancia de tu cabello como expresión de tu identidad y estilo personal. Nuestro equipo de estilistas altamente capacitados te ofrece servicios de alta calidad y una experiencia relajante y revitalizante, utilizando productos de primera calidad y técnicas innovadoras para superar tus expectativas.",
+        
+        "manicure_pedicure_name": "Manicura & Pedicura:",
+        "RegularManicure": "~ Manicura Regular, con Limpieza",
+        "ManicureWithCleansingGelShellac": "~ Manicura con Limpieza, Gel, Shellac",
+        "GelStructureWithSemiPermanentPolish": "~ Estructura de Gel con Esmalte Semipermanente",
+        "AcrylicNails": "~ Uñas Acrílicas",
+        "PedicureWithDeepCleaningPlusGel": "~ Pedicura con Limpieza Profunda, más Gel",
+        "Acrippie": "~ Acripie",
+        "manicure_pedicure_offers": [
+          "~ Manicura regular, con limpieza",
+          "~ Manicura con limpieza, gel, shellac",
+          "~ Estructura de gel con esmalte semipermanente",
+          "~ Uñas acrílicas",
+          "~ Pedicura con limpieza profunda, más gel",
+          "~ Acrippie"
+        ],
+        "manicure_pedicure": "El cuidado de las uñas va más allá del esmalte de uñas; es una práctica de autocuidado que muestra atención al detalle y compromiso con el bienestar. Las uñas bien cuidadas mejoran la apariencia y transmiten confianza y elegancia. En nuestra boutique de uñas, encontrarás servicios de manicura y pedicura, con un equipo de expertos apasionados que te brindarán una experiencia lujosa. Desde la hidratación profunda hasta los diseños personalizados, estamos dedicados a realzar tu belleza única.",
+        
+        "esthetic_name": "Estética:",
+        "FacialCleaning": "~ Limpieza Facial",
+        "EyelashExtension": "~ Extensión de Pestañas",
+        "Microblading": "~ Microblading",
+        "EyebrowWaxing": "~ Depilación de Cejas",
+        "LipAugmentation": "~ Aumento de Labios",
+        "Botox": "~ Botox",
+        "esthetic_offers": [
+          "~ Limpieza facial",
+          "~ Extensión de pestañas",
+          "~ Microblading",
+          "~ Depilación de cejas",
+          "~ Aumento de labios",
+          "~ Botox"
+        ],
+        "esthetic": "En nuestro lujoso salón de belleza, ofrecemos una amplia gama de tratamientos exclusivos para realzar tu belleza natural y aumentar tu confianza interna. Desde el bótox para combatir las arrugas hasta la eliminación de lunares y los tratamientos de glúteos, nuestro equipo de especialistas está comprometido a ayudarte a alcanzar tus objetivos estéticos. Con servicios personalizados y de lujo, te invitamos a experimentar la excelencia en belleza y bienestar en nuestro exclusivo salón. Permítenos cuidarte y resaltar tu belleza única a partir de hoy."
+      },
+
+      "faq": {
+        "language": {
+          "title": "Idioma",
+          "body": "En nuestro equipo, contamos con un estilista experto en inglés, pero el resto del equipo está compuesto principalmente por hispanohablantes. Aunque comprenden inglés, consideran que la comunicación en español es más efectiva y fluida."
+        },
+        "hours": {
+          "title": "Horario",
+          "body": "En proceso"
+        },
+        "deposit_amount": {
+          "title": "Monto del depósito",
+          "body": "El depósito requerido para reservar nuestros servicios oscila entre 20 y 100 dólares, dependiendo del servicio elegido. Este depósito no es reembolsable y garantiza tu cita."
+        },
+        "appointment_change_policy": {
+          "title": "Política de cambio de cita",
+          "body": "Entendemos que pueden surgir circunstancias imprevistas. Por lo tanto, ofrecemos la flexibilidad de modificar tu cita hasta 24 horas antes de la hora programada. Sin embargo, esta modificación solo se puede realizar una vez para garantizar la disponibilidad para todos nuestros clientes."
+        },
+        "cancellations": {
+          "title": "Cancelaciones",
+          "body": "¡Entendemos que los planes pueden cambiar! Para cancelar tu cita, simplemente llámanos. Por favor, recuerda que las cancelaciones deben hacerse por teléfono; lamentablemente, no podemos aceptarlas por mensaje de texto o correo electrónico. Además, avísanos al menos con 24 horas de anticipación para que podamos reorganizar nuestro horario. ¡Gracias por tu comprensión!"
+        },
+        "missed_appointments": {
+          "title": "Citas perdidas",
+          "body": "Entendemos que pueden surgir circunstancias imprevistas. Como cortesía, ofrecemos a cada cliente la oportunidad de reprogramar una cita perdida sin costo adicional, siempre que nos informen dentro de los primeros 30 minutos después de la hora programada."
+        },
+        "late_policy": {
+          "title": "Política de llegadas tardías",
+          "body": "Entendemos que pueden surgir circunstancias imprevistas. Si llegas 30 minutos tarde a tu cita, lamentablemente, tendrás que esperar a ser atendido. Sin embargo, si aún podemos acomodarte el mismo día, no perderás tu depósito. En caso de que no haya más espacios disponibles para el día, deberás programar otra cita y perder tu depósito. Apreciamos tu comprensión y puntualidad."
+        },
+        "children_policy": {
+          "title": "Política de niños",
+          "body": "Para el bienestar de todos nuestros clientes y para mantener un ambiente tranquilo y relajado, queremos informarte que no se permitirá la entrada de niños menores de 12 años en el salón de belleza. Agradecemos tu comprensión y cooperación en este asunto."
+        },
+        "about_us": {
+          "title": "Sobre nosotros",
+          "body": ""
+        }
+      }
+      
+
+}

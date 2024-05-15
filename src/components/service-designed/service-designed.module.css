@@ -226,4 +226,14 @@
   .panel{
     margin: 1px;
   }
+
+  .text__work{
+    /* background-color: beige; */
+    min-width: 95% !important;
+  }
+
+  .name__container{
+    /* background-color: aqua; */
+    width: 80%;
+  }
 }

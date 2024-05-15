@@ -8,48 +8,45 @@ import { GiVineFlower } from "react-icons/gi";
 import { IoFlowerSharp } from "react-icons/io5";
 import Comments from '../../components/comments/comments';
 
-export default function Home(){
-    return(
-        <div className={styles.mainConteiner}>
-           
-            <div className={styles.carrousel}>
-              <CarrouselHome/>
-            
-            </div>
+import { useTranslation } from 'react-i18next'
+import CarrouselHomeMovil from '../../components/carrouselHome-movil/carrouselHome-movil';
 
-            <div className={styles.contTexto}>
-              <p className={styles.parrafo}>
-                Dream of perfect hair and make it come tru in our beauty salon. Our hair
-                care specialists offer you the most innovative and efective treatments. Feel bueautiful
-                and confident with helthy and shiny hair.
-              </p>
-              <div className={styles.schedule_button_div}>
-                <Button variant="outline-light" data-animation="diagonal" className={Button__styles.Boton}>{'~'} Contac Us
+export default function Home(){
+
+  const { t } = useTranslation();
+    return(
+      <div className={styles.mainConteiner}>
+
+      <div className={styles.carrousel}>
+          <CarrouselHome />
+          <CarrouselHomeMovil/>
+      </div>
+
+      <div className={styles.text__container}>
+          <p className={styles.text}>
+              {t('home.paragraph')}
+          </p>
+          <div className={styles.schedule_button_div}>
+              <Button variant="outline-light" data-animation="diagonal" className={Button__styles.Boton}>
+                  {t('home.contactUs')}
                   <span className={Button__styles.borderTop} id="border"></span>
                   <span className={Button__styles.borderRight} id="border"></span>
                   <span className={Button__styles.borderBottom} id="border"></span>
                   <span className={Button__styles.borderLeft} id="border"></span>
-                </Button> 
-              </div>
-              <div className={styles.contBordeS}></div>
-              <div className={styles.contBorde}></div>
-              
-              </div>
-              
+              </Button>
+          </div>
+          <div className={styles.top__border__container}></div>
+          <div className={styles.bottom__border__container}></div>
 
-            <div className={styles.ourServices}>
-              <OurServices/>
-            
-            </div>
+      </div>
 
-            <div className={styles.comments}>
-              <Comments/>
-            
-            </div>
-            
+      <div className={styles.ourServices}>
+          <OurServices />
+      </div>
 
-            
-
-        </div>
+      <div className={styles.comments}>
+          <Comments />
+      </div>
+  </div>
     )
 }

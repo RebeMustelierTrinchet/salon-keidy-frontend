@@ -1,80 +1,51 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
-import styles from './comments.module.css'
-import Card from 'react-bootstrap/Card';
-import { Button } from 'react-bootstrap';
-import { IoFlowerSharp } from "react-icons/io5";
-
-// import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import styles from './comments.module.css';
 
 export default function Comments() {
-  
-  const comentarios=[
+  const { t } = useTranslation();
+
+  const comentarios = [
     {
-        text: "I was extremely pleased with the final result, as it was exceptional and exceeded all my expectations. The service provided was top quality and I felt treated with the utmost dedication and professionalism. The whole team made an effort to provide me with an unmatched experience and they truly succeeded in doing so. I have nothing but words of praise to describe how satisfied I am with the final result and the excellent service I received.",
-        author:"Juanito Perez",
+      text: t('comments.comment1.text'),
+      author: t('comments.comment1.author'),
     },
     {
-        text: "1. I was extremely delighted with the final outcome, as it was exceptional and surpassed all my expectations. The service provided was top-notch, and I felt treated with utmost dedication and professionalism. The entire team made every effort to provide me with an unparalleled experience, and they truly succeeded. I cannot find enough words of praise to describe how satisfied I am with the final result and the excellent service I received!",
-        author:"Pedrito Sanchez",
+      text: t('comments.comment2.text'),
+      author: t('comments.comment2.author'),
     },
     {
-        text: "1. I was extremely delighted with the final outcome as it exceeded all my expectations. The provided service was of top-notch quality and I felt treated with utmost dedication and professionalism. The entire team made every effort to provide me with an unparalleled experience, and they truly succeeded in doing so. I cannot express enough praise for how satisfied I am with the final outcome and the excellent service I received!",
-        author:"Hello Kitty",
+      text: t('comments.comment3.text'),
+      author: t('comments.comment3.author'),
     },
     {
-        text: "1. I was extremely delighted with the final outcome, as it surpassed all my expectations. The provided service was top-notch, and I felt treated with utmost dedication and professionalism. The entire team made every effort to provide me with an unparalleled experience, and they truly succeeded in doing so. I can't express enough praise to describe how satisfied I am with the final result and the excellent service I received!",
-        author:"Yamile",
+      text: t('comments.comment4.text'),
+      author: t('comments.comment4.author'),
     },
     {
-        text: "We build the perfect Kitchen for you, fulfilling your dreams and expectations.",
-        author:"Carol",
+      text: t('comments.comment5.text'),
+      author: t('comments.comment5.author'),
     },
-]
+  ];
+
   return (
     <div className={styles.mainCont}>
-        {/* <div className={styles.borde__superior}></div> */}
-        <h1 className={styles.title}>{'What do others think '}<IoFlowerSharp className={styles.button__icon}/></h1>
-        <h2 className={styles.subtitle}>Caribean Salon Beauty</h2>
-      <Swiper
-        // effect={'coverflow'}
-        // grabCursor={true}
-        // centeredSlides={true}
-        // slidesPerView={'auto'}
-        // coverflowEffect={{
-        //   rotate: 50,
-        //   stretch: 0,
-        //   depth: 100,
-        //   modifier: 1,
-        //   slideShadows: true,
-        // }}
-        // pagination={true}
-        // modules={[EffectCoverflow, Pagination]}
-        // className={styles.swiper}
-      >
-
-        {comentarios.map((item, index) => {
-          return(
-            <SwiperSlide className={styles.swiperSlide} key ={index}> 
-               <div className={styles.comments__container}>
-                      <p className={styles.text}>{item.text}</p>
-                      <p className={styles.author}>{item.author}</p>
-                </div>  
-            </SwiperSlide>
-          );
-        })}
-        
+      <h1 className={styles.title}>{t('comments.title')}</h1>
+      <h2 className={styles.subtitle}>{t('comments.subtitle')}</h2>
+      <Swiper>
+        {comentarios.map((item, index) => (
+          <SwiperSlide key={index} className={styles.swiperSlide}> 
+            <div className={styles.comments__container}>
+              <p className={styles.text}>{item.text}</p>
+              <p className={styles.author}>{item.author}</p>
+            </div>  
+          </SwiperSlide>
+        ))}
       </Swiper>
-      
-      {/* <div className={styles.borde__inferior}></div> */}
-    </ div>
+    </div>
   );
 }

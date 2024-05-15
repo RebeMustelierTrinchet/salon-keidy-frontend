@@ -1,0 +1,33 @@
+.switch__container {
+    display: inline-block;
+  }
+  
+  .switch__button {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(--dorado);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--verde);
+    cursor: pointer;
+    border: none;
+  }
+  
+  .switch__button.checked {
+    background-color: var(--verde); /* Color de fondo cuando está activado */
+    color: var(--dorado);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .switch__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+  }
+  
+  /* Imágenes de fondo */
+ 
+  

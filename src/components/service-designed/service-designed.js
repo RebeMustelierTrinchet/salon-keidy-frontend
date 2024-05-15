@@ -6,6 +6,8 @@ import logo from './../../imagenes/logo/5b1be6ef-3f0f-4529-ad77-a59222d53447-rem
 
 import texto__styles from './../textos.module.css'
 
+import { useTranslation } from 'react-i18next';
+
 
 
 
@@ -15,6 +17,8 @@ export default function Services_designed({item}) {
     function handleClick(index) {
         setActivePanel(index);
     }
+
+    const { t } = useTranslation();
 
     return (
         <div className={styles.maincontainer}>
@@ -33,7 +37,7 @@ export default function Services_designed({item}) {
 
             <div className={styles.text__container}>
                 <div className={texto__styles.letras}>
-                    <h1 className={texto__styles.title}>{'Our Service'}</h1>
+                    <h1 className={texto__styles.title}>{t('services.our_service')}</h1>
                     <h2 className={texto__styles.subtitle}> {item.services_name}</h2>
                     <hr className={styles.linea__texto}/>
                     {/* <div className={texto__styles.div__border}> */}
@@ -51,16 +55,13 @@ export default function Services_designed({item}) {
                 
                     
                         <ul className={styles.name__container}>
-                        Our Services 
-                            
+                        {t('services.our_services')}
 
-                            {item.services_offers.map((service, index) => {
-                                return(
-                                    <li className={styles.name__letter}>
-                                        {service}
-                                    </li>
-                                );
-                            })}
+                        {item.services_offers.map((service, index) => (
+                                <li className={styles.name__letter} key={index}>
+                                    {service}
+                                </li>
+                        ))}
                             <div className={styles.contBordeS}></div>
                         <div className={styles.contBorde}></div>
                         </ul>

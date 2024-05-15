@@ -13,9 +13,12 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import React, { useState, useEffect } from "react";
 import logo from './../../imagenes/logo/5b1be6ef-3f0f-4529-ad77-a59222d53447-removebg-preview.png'
 
+import { useTranslation } from 'react-i18next';
+
 export default function NavBar(){
 
     const [visible, setVisible] = useState(true);
+    const { t } = useTranslation(); 
 
     
   useEffect(() => {
@@ -57,16 +60,16 @@ export default function NavBar(){
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto" >
-                        <Nav.Link className={styles.botonNav} href="/">Home<hr className={styles.raya} /></Nav.Link>
+                        <Nav.Link className={styles.botonNav} href="/">{t('navbar.home')}<hr className={styles.raya} /></Nav.Link>
                         
-                        <Nav.Link className={styles.botonNav} href="/services" >Service<hr className={styles.raya} />
+                        <Nav.Link className={styles.botonNav} href="/services" >{t('navbar.services')}<hr className={styles.raya} />
                             
                         </Nav.Link>
 
                         {/* <Nav.Link className={styles.botonNavS} href="/bookOnline">Book Online<hr className={styles.raya} /> */}
                         {/* </Nav.Link> */}
 
-                        <Nav.Link className={styles.botonNav} href="/faqs">F.A.Qs<hr className={styles.raya} />
+                        <Nav.Link className={styles.botonNav} href="/faqs">{t('navbar.faqs')}<hr className={styles.raya} />
                         </Nav.Link>
                 
                         </Nav>

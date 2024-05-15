@@ -1,0 +1,154 @@
+{
+    "header": {
+     "chooseLanguage": "Choose Language:"
+    },
+    "mainSection": {
+     "title": "Creating Multilingual React Apps with react-i18next: A Step-by-Step Guide"
+    },
+
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "faqs": "F.A.Qs"
+      },
+      "home": {
+        "paragraph": "Dream of perfect hair and make it come true in our beauty salon. Our hair care specialists offer you the most innovative and effective treatments. Feel beautiful and confident with healthy and shiny hair.",
+        "contactUs": "Contact Us"
+      },
+      "carrousel": {
+        "title": "Our team of specialized experts is ready to provide you with an unparalleled experience.",
+        "subtitle": "Our goal is for you to feel comfortable and satisfied with the results, which is why we strive to provide you with a welcoming environment and high-quality services.",
+        "bookingOnline": "Booking Online"
+      },
+      "ourServices": {
+        "title": "What we offer as services ?",
+        "aestheticServices": "Aesthetic services:",
+        "manicure": "Manicure",
+        "styling": "Styling",
+        "esthetic": "Esthetic",
+        "goGallery": "Go Gallery"
+      },
+
+      "comments": {
+        "title": "What People Are Saying",
+        "subtitle": "Caribbean Beauty Salon",
+        "comment1": {
+          "text": "OMG! I'm totally in love with my new hairdo! The team at Caribbean Beauty Salon nailed it! Thanks a million!",
+          "author": "Alejandro Ramirez"
+        },
+        "comment2": {
+          "text": "My nails have never looked this good! Big shoutout to the awesome crew at Caribbean Beauty Salon for hooking me up with killer nails!",
+          "author": "Sofia Gutierrez"
+        },
+        "comment3": {
+          "text": "Whoa! Can't stop checking myself out after that amazing facial treatment! Caribbean Beauty Salon, you guys rock!",
+          "author": "Juanita Lopez"
+        },
+        "comment4": {
+          "text": "Feeling like a movie star after getting my hair done here! Huge thanks to the super talented folks at Caribbean Beauty Salon!",
+          "author": "Diego Hernandez"
+        },
+        "comment5": {
+          "text": "I'm on cloud nine after my pampering session at Caribbean Beauty Salon! These guys know how to make you feel like royalty!",
+          "author": "Camila Rodriguez"
+        }
+      },
+
+      "services": {
+        "HairExtensions": "~ Hair Extensions",
+        "KeratinTreatment": "~ Keratin Treatment",
+        "Haircuts": "~ Haircuts",
+        "Color": "~ Color",
+        "CrochetBaraids": "~ Crochet baraids",
+        "AfricanBraids": "~ African Braids",
+
+        "our_service": "Our Service",
+        "our_services": "Our Services",
+        "styling_name": "Styling:",
+
+        "styling_offers": [
+          "~ Hair Extensions",
+          "~ Keratin Treatment",
+          "~ Haircuts",
+          "~ Color",
+          "~ Crochet baraids",
+          "~ African Braids"
+        ],
+        "styling": "Fixing your hair as a woman is essential in your personal care routine, not only to look good, but also to feel good about yourself. A good haircut or hairstyle can lift your spirits, boost your confidence, and highlight your individuality. We understand the importance of your hair as an expression of your identity and personal style. Our team of highly trained stylists offers you high-quality services and a relaxing and revitalizing experience, using top-quality products and innovative techniques to exceed your expectations.",
+        
+        "manicure_pedicure_name": "Manicure & Pedicure:",
+        "RegularManicure": "~ Regular Manicure, with Cleaning",
+        "ManicureWithCleansingGelShellac": "~ Manicure with Cleansing, Gel, Shellac",
+        "GelStructureWithSemiPermanentPolish": "~ Gel Structure with Semi-Permanent Polish",
+        "AcrylicNails": "~ Acrylic Nails",
+        "PedicureWithDeepCleaningPlusGel": "~ Pedicure with Deep Cleaning, Plus Gel",
+        "Acrippie": "~ Acrippie",
+        
+        "manicure_pedicure_offers": [
+          "~ Regular manicure, with cleaning",
+          "~ Manicure with cleansing, gel, shellac",
+          "~ Gel structure with semi-permanet polish",
+          "~ Acrilic nails",
+          "~ Pedicure with deep cleaning, plus gel",
+          "~ Acrippie"
+        ],
+        "manicure_pedicure": "Nail care goes beyond nail polish; it is a self-care practice that shows attention to detail and commitment to well-being. Well-groomed nails enhance appearance and convey confidence and elegance. In our nail boutique, you will find manicure and pedicure services, with a team of passionate experts who will provide you with a luxurious experience. From deep hydration to customized designs, we are dedicated to enhancing your unique beauty.",
+        "FacialCleaning": "~ Facial Cleaning",
+        "EyelashExtension": "~ Eyelash Extension",
+        "Microblading": "~ Microblading",
+        "EyebrowWaxing": "~ Eyebrow Waxing",
+        "LipAugmentation": "~ Lip Augmentation",
+        "Botox": "~ Botox",
+        "esthetic_name": "Esthetic:",
+        
+        "esthetic_offers": [
+          "~ Facial Cleaning",
+          "~ Eyelash extension",
+          "~ Microblanding",
+          "~ Eyebrow waxing",
+          "~ Lip augmentation",
+          "~ Botox"
+        ],
+        "esthetic": "In our luxurious beauty salon, we offer a wide range of exclusive treatments to enhance your natural beauty and boost your inner confidence. From botox to combat wrinkles to mole removal and buttock treatments, our team of specialists is committed to helping you achieve your aesthetic goals. With personalized and luxury services, we invite you to experience excellence in beauty and well-being in our exclusive salon. Allow us to take care of you and highlight your unique beauty starting today."
+      },
+
+      "faq": {
+        "language": {
+          "title": "Language",
+          "body": "In our team, we have a stylist expert in English, but the rest of the team is mainly composed of Spanish speakers. Although they understand English, they find that communication in Spanish is more effective and fluid."
+        },
+        "hours": {
+          "title": "Hours",
+          "body": "In process"
+        },
+        "deposit_amount": {
+          "title": "Deposit Amount",
+          "body": "The required deposit to reserve our services ranges between 20 and 100 dollars, depending on the chosen service. This deposit is non-refundable and guarantees your appointment."
+        },
+        "appointment_change_policy": {
+          "title": "Appointment Change Policy",
+          "body": "We understand that unexpected circumstances may arise. Therefore, we offer the flexibility to modify your appointment up to 24 hours before your scheduled time. However, this modification can only be made once to ensure availability for all our clients."
+        },
+        "cancellations": {
+          "title": "Cancellations",
+          "body": "We understand that plans can change! To cancel your appointment, simply give us a call. Please remember that cancellations must be made by phone; unfortunately, we cannot accept them via text message or email. Also, please let us know at least 24 hours in advance so we can rearrange our schedule. Thank you for your understanding!"
+        },
+        "missed_appointments": {
+          "title": "Missed Appointments",
+          "body": "We understand that unforeseen circumstances may arise. As a courtesy, we offer each client the opportunity to reschedule a missed appointment at no additional cost, provided they inform us within the first 30 minutes after the scheduled appointment time."
+        },
+        "late_policy": {
+          "title": "Late Policy",
+          "body": "We understand that unforeseen circumstances may arise. If you arrive 30 minutes late to your appointment, unfortunately, you will have to wait to be attended to. However, if we are still able to accommodate you on the same day, you will not lose your deposit. In the event that no more slots are available for the day, you will need to schedule another appointment and forfeit your deposit. We appreciate your understanding and punctuality."
+        },
+        "children_policy": {
+          "title": "Children Policy",
+          "body": "For the well-being of all our clients and to maintain a tranquil and relaxed atmosphere, we want to inform you that children under the age of 12 will not be allowed in the beauty salon. We appreciate your understanding and cooperation on this matter."
+        },
+        "about_us": {
+          "title": "About Us",
+          "body": ""
+        }
+      }
+
+}

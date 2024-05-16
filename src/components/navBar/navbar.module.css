@@ -52,6 +52,9 @@
 
 .contBoton{
     display: flex;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
 }
 
 .boton{
@@ -87,8 +90,13 @@
 
 .button__iconos{
     /* color: #FEDB97; */
+    display: flex;
     margin: auto;
     font-size: larger;
+}
+
+.boton_lenguaje{
+    /* margin-top: 10px; */
 }
 
 .raya{

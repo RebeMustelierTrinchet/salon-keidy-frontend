@@ -6,15 +6,10 @@ import NavBar from '../../components/navBar/navbar';
 import Footer from '../../components/footer/footer';
 
 export default function Layout({children}){
-    const { t, i18n } = useTranslation(); // Inicializa useTranslation
-
-    const toggleLanguage = (language) => {
-        i18n.changeLanguage(language);
-    };
-
+    
     return(
         <div className={styles.body}>
-            <LanguageToggle toggleLanguage={toggleLanguage} /> 
+            
             <NavBar/>
         
             <div className={styles.contenedor}>

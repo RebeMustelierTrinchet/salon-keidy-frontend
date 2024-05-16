@@ -24,14 +24,14 @@ export default function CarrouselHomeMovil() {
             <img src={logo} alt="logo"   className={styles.logo__image}/>
         </div>
 
-        <hr className={styles.line} />
+        {/* <hr className={styles.line} /> */}
 
         <div className={styles.image__container}>
-        {IMAGES.map((image, index) => (
-          <div key={index} className={styles.cont__imagen}>
-            <img src={image} className={styles[`image${index + 1}`]} />
+          <img src={I1} alt="estetic"   className={styles.image1}/>
+          <div className={styles.sub__image__container}>
+            <img src={I2} alt="manicure"   className={styles.image2}/>
+            <img src={I3} alt="estilism"   className={styles.image3}/>
           </div>
-        ))}
       </div>
 
       <div className={styles.text__container}>

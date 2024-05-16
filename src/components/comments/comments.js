@@ -36,7 +36,7 @@ export default function Comments() {
     <div className={styles.mainCont}>
       <h1 className={styles.title}>{t('comments.title')}</h1>
       <h2 className={styles.subtitle}>{t('comments.subtitle')}</h2>
-      <Swiper>
+      <Swiper className={styles.swiper__container}>
         {comentarios.map((item, index) => (
           <SwiperSlide key={index} className={styles.swiperSlide}> 
             <div className={styles.comments__container}>

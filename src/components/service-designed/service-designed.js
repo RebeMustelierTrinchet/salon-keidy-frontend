@@ -36,8 +36,8 @@ export default function Services_designed({item}) {
             </div>
 
             <div className={styles.text__container}>
-                <div className={texto__styles.letras}>
-                    <h1 className={texto__styles.title}>{t('services.our_service')}</h1>
+                <div className={`${texto__styles.letras} ${styles.letters__container}`}>
+                    <h1 className={`${texto__styles.title} ${styles.letters}`}>{t('services.our_service')}</h1>
                     <h2 className={texto__styles.subtitle}> {item.services_name}</h2>
                     <hr className={styles.linea__texto}/>
                     {/* <div className={texto__styles.div__border}> */}

@@ -92,8 +92,15 @@
    opacity: 1;
 }
 
+a{
+
+}
 
 @media all and (max-width: 700px){
+    .main__container{
+        background-color: #114e5d75 ;
+        padding: 0 0 20px 0;
+    }
     .service__container{
         margin-left: 0;
     }
@@ -102,5 +109,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    /* .letters{
+        background-color: aqua;
+        width: 95%;
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+        margin-left: ;
+        
+    }
+    .letters__container{
+        width: 95%;
+        background-color: blue;
+    } */
+
+    .div_button{
+        margin-bottom: 0px;
+        /* background-color: aqua; */
     }
 }

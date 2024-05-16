@@ -100,33 +100,40 @@
         /* text-align: start; */
     }
     .comments__container{
-        /* align-items: flex-start; */
-        /* background-color: aqua; */
         margin-top: -20px;
-        /* text-align: center; */
+        /* background-color: bisque; */
+        padding: 3px;
+        width: 100%;
+        
     }
     .text{
-        margin-left: 0;
-        width: 90%;
+        margin-right: 0 !important;
+        width: 70%;
         font-size: 15px;
         text-align: center;
+        /* background-color: aqua; */
+        padding: 0;
         
-        /* text-align:start; */
+        text-align:start;
     }
     .swiperSlide{
-        /* padding: 20px; */
-        width: 90%;
+        padding: 20px 0px;
+        width: 100%;
+        /* overflow: visible; */
         /* background-color: blue; */
+    }
+    .swiper__container{
+        width: 95%;
+        /* background-color: brown; */
     }
     .title{
         margin-top: 20px;
     }
 
     .author{
-        /* background-color: aqua; */
         display: flex;
-        margin-left: -50px !important;
         justify-content: center;
+        width: 70%;
     }
     
 }

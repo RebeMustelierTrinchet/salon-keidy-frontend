@@ -11,14 +11,17 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import React, { useState, useEffect } from "react";
+
 import logo from './../../imagenes/logo/5b1be6ef-3f0f-4529-ad77-a59222d53447-removebg-preview.png'
 
 import { useTranslation } from 'react-i18next';
+import LanguageToggle from '../LanguageToggle/LanguageToggle';
+
 
 export default function NavBar(){
 
     const [visible, setVisible] = useState(true);
-    const { t } = useTranslation(); 
+    
 
     
   useEffect(() => {
@@ -42,6 +45,13 @@ export default function NavBar(){
       clearTimeout(timeoutId);
     };
   }, []);
+
+  const { t, i18n } = useTranslation(); // Inicializa useTranslation
+
+    const toggleLanguage = (language) => {
+        i18n.changeLanguage(language);
+    };
+
 
   return (
     <div className={styles.maincontainer}>
@@ -74,6 +84,7 @@ export default function NavBar(){
                 
                         </Nav>
                         <Nav className={styles.contBoton}>
+                        <Nav.Link className={styles.boton_lenguaje}><LanguageToggle toggleLanguage={toggleLanguage} /> </Nav.Link> 
                         <Nav.Link className={styles.boton} href="/"><FaFacebookF className={styles.button__iconos} /></Nav.Link>
                         <Nav.Link className={styles.boton} href="/"><FaInstagram className={styles.button__iconos} /></Nav.Link>
                         <Nav.Link className={styles.boton} href="/"><FaTwitter className={styles.button__iconos} /></Nav.Link>

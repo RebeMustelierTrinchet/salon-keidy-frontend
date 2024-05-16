@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from './services.module.css';
 import { useTranslation } from 'react-i18next';
 import ServicesDesigned from "../../components/service-designed/service-designed";
@@ -32,6 +32,7 @@ import IE8 from './../../imagenes/esthetic/374694681_770044315123276_76569711611
 
 const services = [
     {
+        id: 'styling',
         services_name_key: 'services.styling_name',
         services_images: [IH1, IH2, IH3, IH4, IH5, IH6, IH7, IH8],
         services_offers: [
@@ -45,6 +46,7 @@ const services = [
         textKey: 'services.styling'
     },
     {
+        id: 'manicure_pedicure',
         services_name_key: 'services.manicure_pedicure_name',
         services_images: [IN1, IN2, IN3, IN4, IN5, IN6, IN7, IN8],
         services_offers: [
@@ -58,6 +60,7 @@ const services = [
         textKey: 'services.manicure_pedicure'
     },
     {
+        id: 'esthetic',
         services_name_key: 'services.esthetic_name',
         services_images: [IE1, IE2, IE3, IE4, IE5, IE6, IE7, IE8],
         services_offers: [
@@ -75,18 +78,27 @@ const services = [
 export default function Services() {
     const { t } = useTranslation();
 
+    useEffect(() => {
+        const idToScroll = window.location.hash.replace("#", "");
+        const element = document.getElementById(idToScroll);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' }); // Hace scroll suavemente hacia el elemento
+        }
+    }, []);
+
     return (
         <div className={styles.main__container}>
             {services.map((service, index) => (
-                <ServicesDesigned
-                    key={index}
-                    item={{
-                        ...service,
-                        services_name: t(service.services_name_key),
-                        text: t(service.textKey),
-                        services_offers: service.services_offers.map(offerKey => t(offerKey))
-                    }}
-                />
+                <div id={service.id} key={index}>
+                    <ServicesDesigned
+                        item={{
+                            ...service,
+                            services_name: t(service.services_name_key),
+                            text: t(service.textKey),
+                            services_offers: service.services_offers.map(offerKey => t(offerKey))
+                        }}
+                    />
+                </div>
             ))}
         </div>
     );

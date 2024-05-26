@@ -151,6 +151,57 @@
           "title": "About Us",
           "body": ""
         }
+
+
+        
+      },
+
+       "services_deteil":{
+        "hair_title": "Gallery of Styles and Transformations",
+        "hair_subtitle": "Discover Our Best Work and Find Your Inspiration",
+    
+        "nail_title": "Gallery of Nails and Aesthetics",
+        "nail_subtitle": "Explore Our Featured Designs and Treatments",
+    
+        "esthetic_title": "Gallery of Aesthetics and Advanced Treatments",
+        "esthetic_subtitle": "Discover Our Results in Botox, Rhinoplasty, and Acne Treatments"
+    },
+
+    "contact_info": {
+      "title": "Contact Information",
+      "main": "Main",
+      "secondary": "Secondary",
+      "email": "Email",
+      "location": "Location: Alamar 0224, Located at: 7500 Bellaire Blvd. Houston, Tx 77036. PlazAmericas / SALON SPA RS. Suite 215.",
+      "regular_hours": {
+          "title": "Regular Hours:",
+          "weekdays": "Monday to Saturday from 11:00 a.m. to 7:30 p.m.",
+          "sundays": "Sundays from 12:00 p.m. to 5:30 p.m."
+      },
+      "special_hours": {
+          "title": "Special Seasonal Hours:",
+          "weekdays": "Monday to Saturday from 10:00 a.m. to 8:00 p.m.",
+          "sundays": "Sundays from 11:00 a.m. to 7:00 p.m."
+      },
+      "additional_info": {
+          "title": "Additional Information:",
+          "experience": "8 Years of Experience",
+          "license": "Licensed",
+          "language": "We Speak English"
+      },
+      "payment_methods": {
+          "title": "Payment Methods:",
+          "methods": "Cash, Credit & Debit Cards, and Zelle"
       }
+  },
+
+  "contac_header":{
+    "title":"We are here for you !",
+    "subtitle":"Write to us and we will respond as soon as possible."
+  }
+    
+    
+
+      
 
 }

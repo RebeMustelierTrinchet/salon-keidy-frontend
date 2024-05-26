@@ -109,3 +109,13 @@
         font-size: 17px;
         
     }
+
+    @media all and (max-width: 700px){
+        .map,
+        .contac{
+           
+            min-width: 100%;
+           
+        }
+    
+    }

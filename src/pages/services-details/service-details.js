@@ -41,28 +41,54 @@ import Gallery_Service from "../../components/gallery_service/gallery_service";
 
 const nombreNegocio= 'Caribean Salon Beauty'
 
-const headers=[
-    {
-        id:"hair",
-        background: H_header,
-        alt:"hair work example",
-        title:" Gallery of Styles and Transformations",
-        subtitle:"Discover Our Best Work and Find Your Inspiration"
 
+// const headers=[
+//     {
+//         id:"hair",
+//         background: H_header,
+//         alt:"hair work example",
+//         title:" Gallery of Styles and Transformations",
+//         subtitle:"Discover Our Best Work and Find Your Inspiration"
+
+//     },
+//     {
+//         id: "nail",
+//         background:  N_header ,
+//         alt: "nail work example",
+//         title: "Gallery of Nails and Aesthetics",
+//         subtitle: "Explore Our Featured Designs and Treatments"
+//     },
+//     {
+//         id: "esthetic",
+//         background:E_header,
+//         alt: "esthetic work example",
+//         title: "Gallery of Aesthetics and Advanced Treatments",
+//         subtitle: "Discover Our Results in Botox, Rhinoplasty, and Acne Treatments"
+//     }
+// ];
+
+
+const headers = [
+    {
+        id: 'hair',
+        background: H_header,
+        alt: 'hair work example',
+        title: 'services_deteil.hair_title',
+        subtitle: 'services_deteil.hair_subtitle'
     },
     {
-        id: "nail",
-        background:  N_header ,
-        alt: "nail work example",
-        title: "Gallery of Nails and Aesthetics",
-        subtitle: "Explore Our Featured Designs and Treatments"
+        id: 'nail',
+        background: N_header,
+        alt: 'nail work example',
+        title: 'services_deteil.nail_title',
+        subtitle: 'services_deteil.nail_subtitle'
     },
     {
-        id: "esthetic",
-        background:E_header,
-        alt: "esthetic work example",
-        title: "Gallery of Aesthetics and Advanced Treatments",
-        subtitle: "Discover Our Results in Botox, Rhinoplasty, and Acne Treatments"
+        id: 'esthetic',
+        background: E_header,
+        alt: 'esthetic work example',
+        title: 'services_deteil.esthetic_title',
+        subtitle: 'services_deteil.esthetic_subtitle'
     }
 ];
 
@@ -95,6 +121,7 @@ const gallery =[
 ]
 export default function Service_details(){
     const { id } = useParams();
+
 
     const serviceItem = gallery.find(item => item.id === id);
     const serviceData = serviceItem ? serviceItem.images : [];

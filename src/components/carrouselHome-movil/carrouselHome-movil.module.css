@@ -138,32 +138,17 @@
         
       }
 
-    .image1,
-    .image2,
-    .image3{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    .image1{
+    width: 90%;
     /* margin-bottom: 10px; */
     border: 2px solid white;
     
     }
 
     .image1{
-        margin-top: 40px;
         z-index: 10;
+        /* display: none; */
     }
-    .image2{
-        margin-right: -20px;
-        margin-left: 20px;
-        
-    }
-    .image3{
-        
-        margin-left: -20px;
-        
-    }
-
     .text__container{
         background-color: #114e5d75 ;
         border: 2px solid var(--verde);

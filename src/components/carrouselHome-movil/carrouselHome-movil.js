@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import styles from "./carrouselHome-movil.module.css";
 import Button__styles from './../../components/transiciones.module.css';
 import { Link } from 'react-router-dom';
-import I1 from "./../../imagenes/carruselHome/118476215_1752149348257020_5886591329761144491_n.jpg"
+import I1 from "./../../imagenes/Screenshot 2024-05-26 154616 - Copy.png"
 import I2 from "./../../imagenes/carruselHome/120727734_1788856987919589_5156932402536750116_n.jpg"
 import I3 from "./../../imagenes/carruselHome/274171477_363007865826925_4599852736620786766_n.jpg"
 
@@ -28,10 +28,7 @@ export default function CarrouselHomeMovil() {
 
         <div className={styles.image__container}>
           <img src={I1} alt="estetic"   className={styles.image1}/>
-          <div className={styles.sub__image__container}>
-            <img src={I2} alt="manicure"   className={styles.image2}/>
-            <img src={I3} alt="estilism"   className={styles.image3}/>
-          </div>
+          
       </div>
 
       <div className={styles.text__container}>

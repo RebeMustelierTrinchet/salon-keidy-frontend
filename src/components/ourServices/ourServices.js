@@ -31,42 +31,50 @@ export default function OurServices() {
             </div>
 
             <div className={styles.top__Container}>
-                <div className={styles.service__container}>
-                    <div className={styles.image__container}>
-                    <Link to="#manicure_pedicure">
-                            <img className={styles.image} src={I3} alt={t('ourServices.manicure')}/>
-                            <h2 className={texto__styles.subtitle}>{t('ourServices.manicure')}</h2>
-                        </Link>
-                        <div className={styles.border1}></div>
-                        <div className={styles.border2}></div>
-                    </div>
-                </div>
 
-                <div className={styles.service__container}>
-                    <div className={styles.image__container}>
-                        <a href="#styling">
-                            <img className={styles.image} src={I1} alt={t('ourServices.styling')}/>
-                            <h2 className={texto__styles.subtitle}>{t('ourServices.styling')}</h2>
-                        </a>
-                        <div className={styles.border1}></div>
-                        <div className={styles.border2}></div>
+                <Link to="/service/nail" className={styles.unstyled_link }>
+                    <div className={styles.service__container}>
+                        <div className={styles.image__container}>
+                        
+                                <img className={styles.image} src={I3} alt={t('ourServices.manicure')}/>
+                                <h2 className={texto__styles.subtitle}>{t('ourServices.manicure')}</h2>
+                            
+                            <div className={styles.border1}></div>
+                            <div className={styles.border2}></div>
+                        </div>
                     </div>
-                </div>
+                </Link>
 
-                <div className={styles.service__container}>
-                    <div className={styles.image__container}>
-                        <a href="#esthetic">
-                            <img className={styles.image} src={I2} alt={t('ourServices.esthetic')}/>
-                            <h2 className={texto__styles.subtitle}>{t('ourServices.esthetic')}</h2>
-                        </a>
-                        <div className={styles.border1}></div>
-                        <div className={styles.border2}></div>
+                <Link to="/service/hair"  className={styles.unstyled_link }>
+                    <div className={styles.service__container}>
+                        <div className={styles.image__container}>
+                          
+                                <img className={styles.image} src={I1} alt={t('ourServices.styling')}/>
+                                <h2 className={texto__styles.subtitle}>{t('ourServices.styling')}</h2>
+                            
+                            <div className={styles.border1}></div>
+                            <div className={styles.border2}></div>
+                        </div>
                     </div>
-                </div>
+                </Link>
+
+                <Link to="/service/esthetic" className={styles.unstyled_link }>
+                    <div className={styles.service__container}>
+                        <div className={styles.image__container}>
+                            
+                                <img className={styles.image} src={I2} alt={t('ourServices.esthetic')}/>
+                                <h2 className={texto__styles.subtitle}>{t('ourServices.esthetic')}</h2>
+                           
+                            <div className={styles.border1}></div>
+                            <div className={styles.border2}></div>
+                        </div>
+                    </div>
+                </Link>
             </div>
+           
 
             <div className={styles.div_button}>
-                <Button variant="outline-light" data-animation="diagonal" className={styles__button.Boton}>{t('ourServices.goGallery')}
+                <Button variant="outline-light" data-animation="diagonal" href="/gallery" className={styles__button.Boton}>{t('ourServices.goGallery')}
                     <span className={styles__button.borderTop} id="border"></span>
                     <span className={styles__button.borderRight} id="border"></span>
                     <span className={styles__button.borderBottom} id="border"></span>

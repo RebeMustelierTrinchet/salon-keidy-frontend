@@ -81,6 +81,12 @@ export default function NavBar(){
 
                         <Nav.Link className={styles.botonNav} href="/faqs">{t('navbar.faqs')}<hr className={styles.raya} />
                         </Nav.Link>
+
+                        <Nav.Link className={styles.botonNav} href="/gallery">{t('navbar.gallery')}<hr className={styles.raya} />
+                        </Nav.Link>
+
+                        <Nav.Link className={styles.botonNav} href="/contact">{t('navbar.contact')}<hr className={styles.raya} />
+                        </Nav.Link>
                 
                         </Nav>
                         <Nav className={styles.contBoton}>

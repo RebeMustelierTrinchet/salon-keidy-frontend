@@ -41,12 +41,12 @@ export default function Footer(){
             <div className={styles.littleCont}>
                 <div className={styles.ContBoton}>
                     <Button className={styles.botonNav} href="/">Home</Button>
-                    <Button className={styles.botonNav} href="/portfolio" >Portfolio</Button>
+                    <Button className={styles.botonNav} href="/gallery" >Gallery</Button>
                     <Button className={styles.botonNav} href="/services">Services</Button>
                 </div>
                 <div className={styles.contUs}>
-                    <span className={styles.texto}><FaPhoneVolume size={"18px"} className={styles.iconos}/><span className={styles.phone_number}>(000){' '}123455</span></span>
-                    <span className={styles.texto}><CgMail className={styles.iconos} />algo@gmail.com</span>
+                    <span className={styles.texto}><FaPhoneVolume size={"18px"} className={styles.iconos}/><span className={styles.phone_number}>(346){' '}526{'-'}0235</span></span>
+                    <span className={styles.texto}><CgMail className={styles.iconos} />caribeanbeauty@gmail.com</span>
                 </div>
             </div>
             

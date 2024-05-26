@@ -212,7 +212,7 @@
 
 @media (max-width: 600px) {
   .container {
-    width: 100vw;
+    display: none;
   }
 
   .panel:nth-of-type(4),

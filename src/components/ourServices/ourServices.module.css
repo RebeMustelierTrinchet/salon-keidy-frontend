@@ -12,8 +12,13 @@
     width: 220px;
     height: 220px;
     margin-bottom: 20px;
+    
 }
 
+.unstyled_link {
+    text-decoration: none;
+    color: inherit;
+}
 .mainCont{
     
 }
@@ -92,9 +97,7 @@
    opacity: 1;
 }
 
-a{
 
-}
 
 @media all and (max-width: 700px){
     .main__container{

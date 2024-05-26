@@ -1,0 +1,45 @@
+
+.main__container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image__container {
+    margin: 20px;
+}
+
+.image {
+    width: 330px; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modalImage {
+    height: 90vh;
+    /* height: auto; */
+    border-radius: 8px;
+}

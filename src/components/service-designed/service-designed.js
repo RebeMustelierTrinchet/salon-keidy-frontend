@@ -7,6 +7,8 @@ import logo from './../../imagenes/logo/5b1be6ef-3f0f-4529-ad77-a59222d53447-rem
 import texto__styles from './../textos.module.css'
 
 import { useTranslation } from 'react-i18next';
+import Carrousel_Service from "../carouselServices/carouselService";
+
 
 
 
@@ -34,7 +36,8 @@ export default function Services_designed({item}) {
                     </div>
                 ))}
             </div>
-
+           
+            <Carrousel_Service item={item}/>
             <div className={styles.text__container}>
                 <div className={`${texto__styles.letras} ${styles.letters__container}`}>
                     <h1 className={`${texto__styles.title} ${styles.letters}`}>{t('services.our_service')}</h1>

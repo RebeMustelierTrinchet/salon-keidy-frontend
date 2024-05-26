@@ -9,7 +9,9 @@
     "navbar": {
         "home": "Home",
         "services": "Services",
-        "faqs": "F.A.Qs"
+        "faqs": "F.A.Qs",
+        "gallery":"Gallery",
+        "contact":"Contact Us"
       },
       "home": {
         "paragraph": "Dream of perfect hair and make it come true in our beauty salon. Our hair care specialists offer you the most innovative and effective treatments. Feel beautiful and confident with healthy and shiny hair.",

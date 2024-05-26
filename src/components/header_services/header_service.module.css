@@ -1,0 +1,61 @@
+.main__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('./../../imagenes/services/hero-b.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 90vh;
+    position: relative;
+    overflow: hidden;
+    padding-right: 60px;
+
+}
+
+.image{
+    width: 450px;
+    border: 15px solid transparent;
+    outline:2px solid var(--dorado);
+    position: relative;
+    transform: rotate(-55deg);
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-bottom: 100px;
+}
+.text__container,
+.logo{
+    border: 4px solid black;
+    outline:2px solid var(--dorado);
+}
+.right__container{
+    margin-left: auto;
+    /* background-color: rgba(58, 58, 58, 0.301); */
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.logo{
+    background-color: rgba(58, 58, 58, 0.301);
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.text__container{
+    background-color: rgba(58, 58, 58, 0.301);
+    color: var(--dorado);
+    font-family: Palatino Linotype;
+    /* font-size: 25px; */
+    padding: 10px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.subtitle{
+    font-size: 28px;
+}

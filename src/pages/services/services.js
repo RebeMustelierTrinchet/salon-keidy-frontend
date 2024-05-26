@@ -27,8 +27,8 @@ import IE3 from './../../imagenes/esthetic/364694681_770044315123276_76569711611
 import IE4 from './../../imagenes/esthetic/364696243_770044381789936_3851315552985640054_n.jpg';
 import IE5 from './../../imagenes/esthetic/261827147_311864637607915_3790256090960615545_n.jpg';
 import IE6 from './../../imagenes/esthetic/386648598_811888354272205_2388357589353873904_n.jpg';
-import IE7 from './../../imagenes/esthetic/carouselService2 (2).jpg';
-import IE8 from './../../imagenes/esthetic/374694681_770044315123276_7656971161124107379_n (1).jpg';
+import IE7 from './../../imagenes/esthetic/eye.jpg';
+import IE8 from './../../imagenes/esthetic/ceja.jpg';
 
 const services = [
     {

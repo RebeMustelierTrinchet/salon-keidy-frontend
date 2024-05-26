@@ -9,7 +9,9 @@
     "navbar": {
         "home": "Inicio",
         "services": "Servicios",
-        "faqs": "Preguntas frecuentes"
+        "faqs": "P.F",
+        "gallery":"Galeria",
+        "contact":"Contactanos"
     },
     "home": {
         "paragraph": "Sueña con un cabello perfecto y hazlo realidad en nuestro salón de belleza. Nuestros especialistas en cuidado del cabello te ofrecen los tratamientos más innovadores y efectivos. Siéntete bella y segura con un cabello sano y brillante.",

@@ -10,6 +10,7 @@ import Comments from '../../components/comments/comments';
 
 import { useTranslation } from 'react-i18next'
 import CarrouselHomeMovil from '../../components/carrouselHome-movil/carrouselHome-movil';
+import Why_us from '../../components/why-us/why_us';
 
 export default function Home(){
 
@@ -43,6 +44,8 @@ export default function Home(){
       <div className={styles.ourServices}>
           <OurServices />
       </div>
+
+      <Why_us/>
 
       <div className={styles.comments}>
           <Comments />

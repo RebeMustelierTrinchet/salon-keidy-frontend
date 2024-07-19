@@ -57,7 +57,7 @@
 
  
   .sub__card__container{
-    background-color: transparent;
+    background-color: transparent !important;
     margin-top: 20px;
     border: 0px solid transparent;
   }
